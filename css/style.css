@@ -1,0 +1,66 @@
+body {
+	font-family: "맑은 고딕", "Malgun Gothic", sans-serif, "CookieRun Black";
+}
+
+.link {
+	display: block;
+	width: 200px;
+	height: 40px;
+	background-color:#66aaff;
+	cursor: pointer;
+
+	color:#333;
+	transition:all 0.9s, color 0.3;
+}
+.link:hover{color: #fff;}
+
+#copyright {
+	border-top: 1px solid #99AAB5;
+	margin-top: 170px;
+}
+
+#header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto auto;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #99AAB5;
+}
+
+.site-top {
+	background-color: unset;
+	border: unset;
+	border-bottom: 1px solid skyblue;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.invite-top {
+	background-color: unset;
+	border: unset;
+	border-bottom: 1px solid skyblue;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.member-top {
+	background-color: unset;
+	border: unset;
+	border-bottom: 1px solid skyblue;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.mail-top {
+	background-color: unset;
+	border: unset;
+	border-bottom: 1px solid skyblue;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+
+h1 {text-align: center;}
+
+a {text-decoration: none;}
